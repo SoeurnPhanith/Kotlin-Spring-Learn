@@ -1,0 +1,17 @@
+
++ Encapsulation គឺជាគោលការណ៍មួយរបស់ OOP ដែលមាននាទីលាក់បាំងទិន្នន័យនៅខាងក្នុង class
+ហើយវាអនុញ្ញាត្តឲ្យយើងគ្រប់គ្រងទិន្នន័យនោះតាមរយះ Setter/Getter ។ ហើយនៅក្នុងភាសារ Kotlin
+setter/getter គឺជា default នោះទេដោយមិនចាំបាច់បង្កើតទ្បើយ។
+
++ Custom Setter/Getter គឺជាប្រភេទ method ដែលអនុញ្ញាត្តឲ្យយើងអាចកំណត់នូវ validate logic
+នៃកូដពេល set or get បានតាម bussiness ។
+
++ Syntax Getter :
+   val propertyName: Type
+        get() = value
+
++ Syntax Setter :
+    var propertyName: Type = initialValue
+        set(value) {
+            field = value
+        }

@@ -1,0 +1,22 @@
+
+ + ទាំង lateinit និង lazy សុទ្ធតែប្រើសម្រាប់ Deferred Initialization (មិន Initialize
+ variable ភ្លាមៗ) ប៉ុន្តែមានគោលបំណងខុសគ្នា។
+
+ + lateinit អនុញ្ញាត្តឲ្យអ្នកប្រកាស var ជាមួយដោយមិនចាំបាច់ផ្តល់តម្លៃឲ្យភា្លមៗក៏បាន។ ហើយវាមិនអាចប្រើប្រាស់
+ ចំពោះ Val និង Primitive DataType នោះទេ។
+ example : lateinit var name : String
+
+ + lazyប្រើសម្រាប់ val ដែលគណនាតម្លៃតែម្តងគត់ នៅពេលដែលត្រូវប្រើដំបូងគេ (lazy initialization)
+
+ + Compare both of them
+ | Feature                     | lateinit                | lazy                |
+ | --------------------------- | ----------------------- | ------------------- |
+ | Type                        | Deferred Initialization | Lazy Initialization |
+ | Use with                    | `var`                   | `val`               |
+ | Mutable                     | ✅ Yes                   | ❌ No                |
+ | Primitive Types             | ❌ No                    | ✅ Yes               |
+ | Auto Initialize             | ❌ No                    | ✅ Yes               |
+ | Reassign Value              | ✅ Yes                   | ❌ No                |
+ | First Access Creates Object | ❌ No                    | ✅ Yes               |
+
++ ជាទូទៅពេល Injection Constructor គេប្រើប្រាស់ Lazy > lateinit

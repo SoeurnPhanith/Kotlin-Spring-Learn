@@ -1,0 +1,18 @@
+package `04-inheritance`
+//============= Keyword use in inheritance in kotlin==========
+
+// | Keyword  | Meaning                    |
+// | -------- | -------------------------- |
+// | open     | allow inheritance          |
+// | :        | extends class              |
+// | override | change parent function     |
+// | super    | call parent                |
+// | final    | stop inheritance (default) |
+
+
+//============ Type of inheritance ===============
+//  1. Single Inheritance
+//  2. Multilevel inheritancee
+//  3. Hierarchical inheritance
+//  4. Multiple inheritance
+//  5. Hybrid inher

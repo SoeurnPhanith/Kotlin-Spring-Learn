@@ -1,0 +1,6 @@
+
++ Polymorphism == “One interface, many behaviors”
+
++ Polymorphism គេចែកចេញជា ២ ប្រភេទ ៖
+    ១. compile-time polymorphism (overloading)
+    ២. run-time polymorphism (overriding)
