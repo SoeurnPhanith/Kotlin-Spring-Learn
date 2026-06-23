@@ -16,6 +16,7 @@ class BankService {
     fun deposit(amount : Double){
         if(amount <= 0.0){
             println("Insufficient funds")
+            return
         }
         _service.processDeposit(amount);
         transactionRepo.saveTransaction(amount);

@@ -7,7 +7,7 @@ package `02-constructor`
 នៅក្នុង bodyនៃ class។ ហើយវាភាគច្រើនគេប្រើប្រាស់វានៅពេលគេចង់ឲ្យ class មួយនោះមាន constructor បាន
 ច្រើនទម្រង់ដែលយើងហៅថា overloading constructor។
 
-+ Init {} គឺជា Initializer block ដែលវានឹងដំណើរការ automatically នៅពេលដែល object វា
++ Init {} គឺជា Initializer blocker ដែលវានឹងដំណើរការ automatically នៅពេលដែល object វា
 ត្រូវបានបង្កើតឡើង ។លើសពីនេះជាទូទៅ គេប្រើប្រាស់វានៅពេលដែល ៖
     ១. initialize data
     ២. Validate data
