@@ -1,0 +1,14 @@
+package org.example
+
+
++ គោលបំណងរបស់ចំណុចមួយនេះគឺ ត្រូវបានគេចាត់ទុកថាលែងមានពាក្យថា NullPointerException
+តែការប្រើប្រាស់ !! ខុសក៏អាចធ្វើរឲ្យ Crash Application បានដែរ។ ត្រូវយល់ពីរបៀបគ្រប់គ្រង Null
+ឲ្យបានត្រឹមត្រូវព្រោះ Spring ភ្ជាប់ជាមួយ Java Library ដែលអាច return null ដោយមិនប្រាប់ពី
+type system ។
+
++ Nullable Type មានមួយចំនួនដូចជា ៖
+    - ?    : Type អាច null បាន
+    - ?.   : មានន័យថាបើ object ជា null នោះវានឹង return null ដោយមិនឲ្យ crash
+    - !!   : ធានាថាមិនnull ទេ ប្រសិនបើខុសវានឹង throw Exception
+    - ?:   : ផ្តល់តម្លៃ default ប្រសិនបើខ្លួនឯង null
+
