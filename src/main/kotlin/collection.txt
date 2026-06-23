@@ -1,0 +1,10 @@
+
+Collections You'll Use Most in Spring Boot
+| Collection  | Usage                                     |
+| ----------- | ----------------------------------------- |
+| List        | Return API responses, query results       |
+| MutableList | Build or modify collections               |
+| Set         | Many-to-Many relationships, unique values |
+| MutableSet  | Editable unique collections               |
+| Map         | Configuration, JSON-like structures       |
+| MutableMap  | Cache, indexing data                      |
