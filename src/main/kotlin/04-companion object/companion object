@@ -1,0 +1,3 @@
+
++ companion object គឺជា object នៅក្នុង class ដែលប្រើដូច “static” ក្នុង Java
+មានន័យថា យើងអាច call វា ដោយយមិនចាំបាច់បង្កើត object នៃ class នោះ

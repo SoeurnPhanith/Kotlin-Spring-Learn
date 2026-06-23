@@ -1,0 +1,31 @@
+
+
++ Object មានន័យថា ការប្រើប្រាស់និងបង្កើត Object បានតែមួយគត់ ពោលគឺនៅក្នុងមួយ
+ Application នោះមាន Object តែមួយប៉ុណ្ណោះ។
+
+example :
+ +about normal class
+    class User (.....)
+    fun main(){
+        val user1 = User()✅
+        val user2 = User()✅
+        val user3 = User()✅
+
+        //នៅលើclass ធម្មតាយើងអាចបង្កើត Object បានច្រើន
+    }
+
+ +about object
+    object User(.....)
+    fun main(){
+
+        val user = User()
+        val user2 = User()❌
+
+        //បានតែ១ object ប៉ុណ្ណោះ
+
+    }
+
++ពេលប្រើប្រាស់ Object :
+    -object Database
+    -object Config
+    -object Logger

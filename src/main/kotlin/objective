@@ -1,0 +1,4 @@
+
++ គោលបំណងរបស់ Kotlin-OOP-Tools គឺឲ្យស្គាល់ feature ពិសេសៗដែលភាសាផ្សេងៗនោះគ្មាន
+data class, sealed class, object, enum និង delegation ព្រោះនៅក្នុង Spring Boot
+ប្រើ feature ទាំងនេះញឺកញាប់បំផុតសម្រាប់ DTO, Entity..... ។
