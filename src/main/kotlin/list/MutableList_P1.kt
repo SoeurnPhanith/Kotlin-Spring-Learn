@@ -22,6 +22,7 @@ fun main() {
 
     ///update element
     name[1] = "Tin Tin"
+    name.set(2, "Kdey Piseth")
     println(name)
 
     ///add many data in same time
